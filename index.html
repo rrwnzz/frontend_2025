@@ -34,10 +34,58 @@
             body{
                 background-image: url(https://img.freepik.com/free-vector/grunge-paper-background_1048-10026.jpg);
             }
+            h1 ,.anything,a{
+                color:rgb(233,187, 44)
+            }
+            ol button{
+                background-color: green;
+            }
+            ol>li{
+                background-color: royalblue;
+            }
+            *{
+                margin: 0px;
+            }
+            #styleTest{
+                background-color: aquamarine;
+                color: black;
+                font-size: 30px;
+                padding-left: 10px;
+                padding-right: 20px;
+                padding-top: 30px;
+                padding-bottom: 40px;
+                border: 30px solid black;
+                margin: 40px 30px;
+
+
+            }
+            #container{
+                width:800px;
+                background-color: blueviolet;
+                text-align: center;
+                margin: auto;
+            }
         </style>
     </head>
 <body>
-    <h1 style="color:aqua; font-size: 70px;">this ia an h1</h1>
+    <button id="styleTest">this is a test</button>
+    <table border="2">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>title</td>
+                <td>link</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="color:gray">1</td>
+                <td style="color:blue; font-size: medium;">installation</td>
+                <td><a style="color: green;" href="https://google.com">go to google</a>
+            </tr>
+        </tbody>
+    </table> 
+    <h1>this ia an h1</h1>
     <h2 id="specialH2">this is an h2</h2>
     <h2 class="anything test">this is another h2</h2>
     <h3>this is another h3</h3>
@@ -72,22 +120,10 @@
         <li>orange</li>
         <li>banana</li>
     </ol>
-    <img width="50"src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="html img">
-    <table border="2">
-        <thead>
-            <tr>
-                <td>#</td>
-                <td>title</td>
-                <td>link</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td style="color:gray">1</td>
-                <td style="color:blue; font-size: medium;">installation</td>
-                <td><a style="color: green;" href="https://google.com">go to google</a>
-            </tr>
-        </tbody>
-    </table> 
+    <div id="container">
+        <img width="50%"src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="html img">
+    </div>
+    
+   
 </body>
 </html>
