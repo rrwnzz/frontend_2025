@@ -33,6 +33,7 @@
     'footer footer footer footer';
     text-align: center;
 }
+<<<<<<< HEAD
 .logo{
     width:100px;
     border-radius: 50px;
@@ -87,3 +88,5 @@
 #main>img:hover{
     width: 100%;
 }
+=======
+>>>>>>> 9c1111b441c1390096269e0d2b8e647499fe7b22
