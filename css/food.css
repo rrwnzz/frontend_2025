@@ -15,6 +15,7 @@
     text-decoration: none;
     color: black;
     margin: 20px;
+    font-size: 20px;
 }
 #searchCart{
     display: flex;
@@ -27,7 +28,7 @@
     border: none;
 }
 .searchButton{
-    background-color: green;
+    background-color: lightgreen;
     padding: 10px 20px;
     color: white;
 }
