@@ -1,0 +1,17 @@
+/* background-color:aqua to check if the connectio between html and css is sussefully done
+ */
+#marioWorld{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8yD8ladn3Yb5a-U6xFyMxPKSJU7XEca88fQ&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 500px;
+    margin: auto;  
+    /* margin auto to make the image in the center of the div marioWorld */
+    margin-top: 50px;
+    position: relative;
+}
+#mario{
+    position: absolute;
+    bottom: 52px;
+}
