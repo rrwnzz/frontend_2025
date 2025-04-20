@@ -15,3 +15,9 @@
     position: absolute;
     bottom: 52px;
 }
+#moveButtons>button{
+    color: black;
+    border-radius: 100%;
+    border: none;
+    padding: 10px;
+}
